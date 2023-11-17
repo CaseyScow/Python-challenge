@@ -1,0 +1,46 @@
+***IMPORTANT NOTE FOR SCRIPT TO RUN***
+When attempting to run my script I would get an error when clicking the play button on the top right.
+For the script to run the user needs to right click the file name from the folders on the
+left, select open integrated terminal, and then type "Python3 main.py" into the terminal and hit enter.
+
+***Description of code***
+Lines 1 and 2 are importing the "os" and "csv" libraries.
+
+Line 4 is setting the path to connect to the file to pull the data from.
+
+Lines 6 - 9 establish variables, an integer, and a list that will be used in the code.
+
+Lines 11 - 14 open the csv file so the computer can read it. Then the computer is skipping 
+over the first row of information because this is just the column headers and not any actual data.
+Finally, the for loop begins so the computer can run through all the rows of data in the csv file with the
+commands to follow.
+
+Lines 16 and 17 is having total_votes count all the rows (votes) and is assigning candidate where to pull its
+information from in the csv file.
+
+Lines 19 - 22 count the amount of candidates that appear in the csv file. 
+
+Lines 24 - 27 print the first part of the results in the terminal in their desired format. Due to the
+desired format of the results and the task at hand, it is required for the code to run this way instead of 
+saving all the text commands for the end. 
+
+Lines 29 - 31 is a for loop that identifies how many votes and the percentage for each candidate. The last 
+line is printing the results in the terminal in the desired format for the assignment. 
+
+Lines 33 - 35 is an if statement that determines the winner by popular vote. 
+
+Lines 37- 39 print the remainder of the results in the desired format within the terminal. 
+
+Line 41 is creating a path to the text file the analysis will be printed on.
+
+Line 43 opens that text file.
+
+Lines 45 - 48 are formatting the results of the analysis to the desired text file in the desired format.
+
+Lines 50 - 52 is the same for loop from lines 29 - 31 except this time it is formatting the text for the
+file the analysis is being printed too. 
+
+Finally, lines 54 - 56 are printing the results for the analysis to the desired text file. 
+
+***References***
+Lines 19 - 22, 29, 30, 33 - 35, 50, 51: Help from chat.gbt as well as classmate Mariah McLelan during a study group on 11/14/23.

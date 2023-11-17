@@ -1,0 +1,44 @@
+***IMPORTANT NOTE FOR SCRIPT TO RUN***
+When attempting to run my script I would get an error when clicking the play button on the top right.
+For the script to run the user needs to right click the file name from the folders on the
+left, select open integrated terminal, and then type "Python3 main.py" into the terminal and hit enter.
+
+***Description of code***
+Lines 1 and 2 are importing the "os" and "csv" libraries. 
+
+Line 4 is setting the os path to connect to the file to pull the data from. 
+
+Lines 6 - 11 are setting the various integers, lists, and variables to be used throughout the code.
+
+Lines 14 - 17 are opening the csv file so the computer can read it. Then the computer is skipping 
+over the first row of information because this is just the column headers and not any actual data. Finally,
+the for loop begins so the computer can run through all the rows of data in the csv file with the commands
+to follow. 
+
+Lines 19 - 22 are assigning date and profit_loss where to pull their information from in the csv file. 
+Then profit_loss is added to total_net and total months is counting the amount of rows. 
+
+Lines 23 - 25 is an if statement adding to the net_change which is then editing the change_list list.
+
+Lines 27 - 29 is another if statement that finds the greatest increase in change and the date associated
+to it. 
+
+Lines 31 - 33 is my final if statement that does the same thing as the last one but for the greatest 
+decrease. 
+
+Line 35 is setting the previous_profit_loss to be the current line being worked on so it may continue 
+through the for loop to the next line.
+
+Line 37 is finding the average change of profit loss or gain for the entire csv file. 
+
+Lines 39 - 45 are printing the results of the analysis in the terminal in the desired format. 
+
+Line 47 is creating a path to the text file the analysis will be printed on. 
+
+Line 49 is opening that text file.
+
+Finally, lines 51 - 57 are formatting the results of the analysis to the desired text file in the desired
+format. 
+
+***References***
+Collaborated with tutor Simon Rennocks on lines: 8, 14-37, and 47-51.
